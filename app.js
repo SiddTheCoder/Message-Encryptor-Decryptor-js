@@ -112,7 +112,6 @@ const encryptedValue = userMsgArr.map( (packet)=>{
 })
 
 const encryptedMsg = String(encryptedValue).replaceAll(',' , "")
-console.log('---------------------------------------------');
 console.log(`The Token to Decrypt Your Message is : ${userMsgToken}`);
 console.log('---------------------------------------------');
 console.log('The Message is : '+ encryptedMsg);
