@@ -117,4 +117,16 @@ console.log('---------------------------------------------');
 console.log('The Message is : '+ encryptedMsg);
 console.log('---------------------------------------------');
 
+// Decryption Section -----------
+
+const userEntryToken = prompt('Enter Your Token to decrypt the message : ')
+console.log('---------------------------------------------');
+
+if(userEntryToken == userMsgToken){
+    console.log(`The Message was : ${userMsg}`)
+    console.log('---------------------------------------------');
+} else{
+    console.log("Code didn't Match...");
+    console.log('---------------------------------------------');
+}
 
